@@ -1,5 +1,4 @@
-import React from "react";
-
+//Get rid of react import because it is no longer using JSX
 import styled from "styled-components";
 
 //A kind of method
@@ -25,13 +24,5 @@ const Button = styled.button`
 		box-shadow: 0 0 8px rgba(0, 0, 0, 0.26);
 	}
 `;
-
-// const Button = props => {
-//   return (
-//     <button type={props.type} className="button" onClick={props.onClick}>
-//       {props.children}
-//     </button>
-//   );
-// };
 
 export default Button;
